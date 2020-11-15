@@ -53,7 +53,7 @@ body {
 }
 .slider__content {
   margin: auto;
-  width: 65vw;
+  width: 45vw;
   height: 32.5vw;
   max-height: 60vh;
   will-change: transform;
@@ -330,4 +330,94 @@ footer.fixed {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+}
+
+.img_1_text_1 {
+  font-family: 'Montserrat', serif;
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  top: 45px;
+  left: 30px;
+}
+
+.img_1_text_2 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 60px;
+  color: white;
+  position: absolute;
+  left: 30px;
+}
+
+.img_1_text_3 {
+  text-align: right;
+  font-family: 'Montserrat', serif;
+  font-size: 13px;
+  color: white;
+  position: absolute;
+  right: 55px;
+}
+
+.img_2_text_1 {
+  text-align: right;
+  font-family: 'Rokkitt', serif;
+  font-size: 45px;
+  color: white;
+  position: absolute;
+  right: 30px;
+}
+
+.img_3_text_1 {
+  font-family: 'Sanchez', serif;
+  font-size: 25px;
+  top: 50%;
+  left: 10%;
+  position: absolute;
+  transform: translate(-10%, -10%);
+}
+
+.img_4_text_1 {
+  font-family: 'Kollektif', serif;
+  src: url(fonts/Kollektif.woff);
+  font-size: 20px;
+  color: #ffc0ad;
+  top: 50%;
+  left: 65%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.img_4_text_2 {
+  font-family: 'ancing Script', cursive;
+  font-size: 40px;
+  color: white;
+  top: 50%;
+  left: 40%;
+  position: absolute;
+}
+
+.img_4_text_3 {
+  font-family: 'Kollektif', serif;
+  src: url(fonts/Kollektif.woff);
+  font-size: 18px;
+  color: white;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+}
+
+.img_5_text_1 {
+  font-family: 'Coiny', cursive;
+  font-size: 80px;
+  color: #4b2c49;
+  left: 30%;
+  position: absolute;
+}
+
+.img_5_text_2 {
+  font-family: 'Sriracha', cursive;
+  font-size: 35px;
+  color: #4b2c49;
+  left: 30%;
+  position: absolute;
 }
